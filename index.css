@@ -1,0 +1,109 @@
+html {
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+button {
+    width: 45%;
+    padding: 5px;
+    border-color: darkred;
+    background-color: red;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#gameScreen {
+    background-color: grey;
+}
+
+#scoreTag {
+    display: none;
+    position: fixed;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    left: 10px;
+    top: 10px;
+    user-select: none;
+}
+
+#healthInfo {
+    display: none;
+    position: fixed;
+    width: 25%;
+    height: 10px;
+    left: 36.5%;
+    top: 10px;
+}
+
+#healthBar {
+    position: fixed;
+    width: 25%;
+    height: 10px;
+    background-color: red;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#healthLeft {
+    position: fixed;
+    width: 25%;
+    height: 10px;
+    background-color: lime;
+}
+
+#healthPoints {
+    position: fixed;
+    display: inline;
+    left: 62.5%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: medium;
+    user-select: none;
+}
+
+#startGameUI {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+
+#startGameBackground {
+    text-align: center;
+    max-width: 25%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 12px;
+}
+
+#points {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    color: yellow;
+}
+
+#pointsText {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: yellow;
+}
