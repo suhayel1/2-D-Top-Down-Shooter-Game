@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title> Game </title>
+    <link rel="stylesheet" type="text/css" href="index.css" title="style"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script type="module" src="playerCharacter.js"></script> -->
+</head>
+
+<body>    
+    <div id="scoreTag">
+        <span>Score: </span>
+        <span id="scoreNum">0</span>
+    </div>
+    <div id="healthInfo">
+        <div id="healthBar">
+            <div id="healthLeft"></div>
+        </div>
+        <span id="healthPoints">100 HP</span>
+    </div>
+    <div id="startGameUI">
+        <div id="startGameBackground">
+            <h1 id="points">0</h1>
+            <p id="pointsText">Points</p>
+            <div>
+                <button id="startGameBtn">START GAME</button>
+            </div>
+        </div>
+    </div>
+    <canvas type="text/javascript" id="gameScreen"></canvas>
+    <script type="text/javascript" src="character.js"></script>
+    <script type="text/javascript" src="movingObj.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
