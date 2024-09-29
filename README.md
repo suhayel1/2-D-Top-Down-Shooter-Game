@@ -2,12 +2,14 @@
 
 A simple game I made back in April 2022 using HTML+CSS+JS.
 
-I used this YouTube video as a guide: https://www.youtube.com/watch?v=eI9idPTT0c4 (Chris Courses: HTML5 Canvas and JavaScript Game Tutorial)
+A 2-D game with top-down view camera where player moves around and shoots an endless wave of enemies.
 
-Despite using a YT video for assistance, I tried to make a fair number of modifications/additions (to code, visuals, and functionality/features) so that the game was closer to my vision.
-
-Some unique things I've done to match game with my vision:
-- Added a health bar at the top of the heads-up display that gets visually updated whenever an enemy collides with player, causing HP value to decrease the more/longer enemy makes contact with player, and the bar goes from fully green to fully red with each HP lost
-- Added blood particle effect where when a bullet hits an enemy, the effect will start from that collision point and spread in a cone shape; also when enemy dies, a blood explosion occurs
+Includes:
+- Start menu that allows the player to start the game
+- Restart menu that displays final score and allows player to play another round
+- Heads-up display that includes health bar and points, and current score
+- Blood particle effect when enemy gets shot and/or killed
 
 Video Demonstration: https://youtu.be/F5qw9mG-Yr0 (2D Top-Down Shooter Game Playtest)
+
+Reference: https://www.youtube.com/watch?v=eI9idPTT0c4 (Chris Courses: HTML5 Canvas and JavaScript Game Tutorial)
